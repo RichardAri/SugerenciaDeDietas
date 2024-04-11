@@ -1,10 +1,8 @@
 import json
 
-# Función para calcular el IMC
 def calcular_imc(peso, altura):
     return peso / (altura ** 2)
 
-# Función para solicitar datos al usuario y calcular el IMC
 def calcular_imc_usuario():
     print("Calculadora de IMC")
     peso = float(input("Ingrese su peso en kilogramos: "))
@@ -13,7 +11,6 @@ def calcular_imc_usuario():
     print("Su IMC es:", imc)
     return imc
 
-# Función para preguntar sobre alergias
 def preguntar_alergias():
     print("¿Tiene alguna alergia? (Ingrese los números correspondientes separados por comas o '0' si no tiene alergias)")
     with open("alergias.json") as file:
@@ -27,7 +24,6 @@ def preguntar_alergias():
         print("Ha seleccionado:", ", ".join(seleccionadas))
         return seleccionadas
 
-# Función para preguntar sobre la actividad física
 def preguntar_actividad_fisica():
     print("¿Cuál es su nivel de actividad física?")
     print("1. Sedentaria")
@@ -46,7 +42,7 @@ def preguntar_actividad_fisica():
     print("Ha seleccionado:", niveles_actividad[opcion])
     return niveles_actividad[opcion]
 
-# Función para guardar el perfil del usuario en un archivo JSON
+# Crear perfil de usuario
 def guardar_perfil(nombre, edad, peso, altura, imc, alergias, actividad_fisica, genero):
     perfil = {
         "nombre": nombre,
@@ -67,17 +63,14 @@ def cargar_perfil():
         perfil = json.load(file)
     return perfil
 
-# Cargar la lista de platillos
 def cargar_platillos():
     with open("platillos.json") as file:
         platillos = json.load(file)["platos"]
     return platillos
 
-# Función para recomendar platillos al usuario
 def recomendar_platillos(perfil, platillos):
     recomendaciones = []
     for plato in platillos:
-        # Verificar si el plato cumple con las restricciones de edad
         edad = perfil["edad"]
         if not (plato["edad_recomendada"]["min"] <= edad <= plato["edad_recomendada"]["max"]):
             continue
@@ -99,10 +92,8 @@ def recomendar_platillos(perfil, platillos):
             continue
         
         recomendaciones.append(plato)
-    
     return recomendaciones
 
-# Función para mostrar las recomendaciones al usuario
 def mostrar_recomendaciones(recomendaciones):
     if not recomendaciones:
         print("Lo sentimos, no hay platillos recomendados para ti en este momento.")
