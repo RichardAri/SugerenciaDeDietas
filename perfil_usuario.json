@@ -1,0 +1,10 @@
+{
+    "nombre": "Cristian",
+    "edad": 25,
+    "peso": 113.0,
+    "altura": 1.7,
+    "imc": 39.10034602076125,
+    "alergias": [],
+    "actividad_fisica": "Sedentaria",
+    "genero": "Masculino"
+}

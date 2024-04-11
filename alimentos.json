@@ -1,0 +1,1314 @@
+{
+    "platos": [
+      {
+        "nombre": "Arroz con pollo",
+        "ingredientes": [
+          {"nombre": "arroz", "gramos": 150},
+          {"nombre": "pollo", "gramos": 200}
+        ],
+        "tipo": ["proteínas", "carbohidratos"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 300,
+          "proteinas": 20,
+          "carbohidratos": 40,
+          "grasas": 8,
+          "vitaminas": {
+            "A": 10,
+            "C": 5,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada César",
+        "ingredientes": [
+          {"nombre": "lechuga", "gramos": 100},
+          {"nombre": "pollo", "gramos": 100},
+          {"nombre": "pan", "gramos": 50},
+          {"nombre": "queso", "gramos": 30},
+          {"nombre": "aderezo", "gramos": 30}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["nuez"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 250,
+          "proteinas": 15,
+          "carbohidratos": 10,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 5,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Sopa de verduras",
+        "ingredientes": [
+          {"nombre": "caldo", "gramos": 200},
+          {"nombre": "verduras", "gramos": 150}
+        ],
+        "tipo": ["proteínas", "carbohidratos"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 150,
+          "proteinas": 8,
+          "carbohidratos": 20,
+          "grasas": 5,
+          "vitaminas": {
+            "A": 20,
+            "C": 15,
+            "D": 0
+          }
+        }
+      }
+    ]
+  }
+  {
+  "platos": [
+    {
+      "nombre": "Sushi de salmón",
+      "ingredientes": [
+        {"nombre": "arroz", "gramos": 100},
+        {"nombre": "salmón", "gramos": 80},
+        {"nombre": "alga nori", "gramos": 10},
+        {"nombre": "vinagre de arroz", "gramos": 5},
+        {"nombre": "azúcar", "gramos": 5},
+        {"nombre": "sal", "gramos": 2}
+      ],
+      "tipo": ["proteínas", "carbohidratos"],
+      "alergenos": [],
+      "apto_fumar": false,
+      "apto_alcohol": true,
+      "informe_nutricional": {
+        "calorias": 250,
+        "proteinas": 20,
+        "carbohidratos": 30,
+        "grasas": 8,
+        "vitaminas": {
+          "A": 10,
+          "C": 2,
+          "D": 0
+        }
+      }
+    },
+    {
+      "nombre": "Tacos de pollo",
+      "ingredientes": [
+        {"nombre": "tortillas de maíz", "gramos": 100},
+        {"nombre": "pollo", "gramos": 150},
+        {"nombre": "lechuga", "gramos": 50},
+        {"nombre": "tomate", "gramos": 30},
+        {"nombre": "cebolla", "gramos": 20},
+        {"nombre": "salsa", "gramos": 30}
+      ],
+      "tipo": ["proteínas", "carbohidratos"],
+      "alergenos": [],
+      "apto_fumar": true,
+      "apto_alcohol": true,
+      "informe_nutricional": {
+        "calorias": 280,
+        "proteinas": 18,
+        "carbohidratos": 35,
+        "grasas": 10,
+        "vitaminas": {
+          "A": 5,
+          "C": 10,
+          "D": 0
+        }
+      }
+    },
+    {
+      "nombre": "Lasagna de vegetales",
+      "ingredientes": [
+        {"nombre": "pasta de lasagna", "gramos": 150},
+        {"nombre": "berenjena", "gramos": 100},
+        {"nombre": "calabacín", "gramos": 80},
+        {"nombre": "tomate", "gramos": 100},
+        {"nombre": "queso mozzarella", "gramos": 80},
+        {"nombre": "salsa de tomate", "gramos": 100}
+      ],
+      "tipo": ["proteínas", "carbohidratos", "grasas"],
+      "alergenos": [],
+      "apto_fumar": true,
+      "apto_alcohol": true,
+      "informe_nutricional": {
+        "calorias": 320,
+        "proteinas": 15,
+        "carbohidratos": 40,
+        "grasas": 12,
+        "vitaminas": {
+          "A": 8,
+          "C": 15,
+          "D": 0
+        }
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa",
+      "ingredientes": [
+        {"nombre": "quinoa", "gramos": 100},
+        {"nombre": "espinacas", "gramos": 50},
+        {"nombre": "pepino", "gramos": 50},
+        {"nombre": "tomate cherry", "gramos": 30},
+        {"nombre": "aguacate", "gramos": 50},
+        {"nombre": "limón", "gramos": 20},
+        {"nombre": "aceite de oliva", "gramos": 10}
+      ],
+      "tipo": ["proteínas", "carbohidratos", "grasas"],
+      "alergenos": [],
+      "apto_fumar": true,
+      "apto_alcohol": true,
+      "informe_nutricional": {
+        "calorias": 300,
+        "proteinas": 12,
+        "carbohidratos": 40,
+        "grasas": 10,
+        "vitaminas": {
+          "A": 6,
+          "C": 20,
+          "D": 0
+        }
+      }
+    },
+    {
+      "nombre": "Pasta Alfredo",
+      "ingredientes": [
+        {"nombre": "pasta", "gramos": 150},
+        {"nombre": "crema de leche", "gramos": 100},
+        {"nombre": "queso parmesano", "gramos": 50},
+        {"nombre": "mantequilla", "gramos": 20},
+        {"nombre": "ajo", "gramos": 10},
+        {"nombre": "perejil", "gramos": 5}
+      ],
+      "tipo": ["proteínas", "carbohidratos", "grasas"],
+      "alergenos": [],
+      "apto_fumar": true,
+      "apto_alcohol": true,
+      "informe_nutricional": {
+        "calorias": 380,
+        "proteinas": 10,
+        "carbohidratos": 45,
+        "grasas": 18,
+        "vitaminas": {
+          "A": 4,
+          "C": 2,
+          "D": 0
+        }
+      }
+    },
+    {
+        "nombre": "Sushi de salmón",
+        "ingredientes": [
+          {"nombre": "arroz", "gramos": 100},
+          {"nombre": "salmón", "gramos": 80},
+          {"nombre": "alga nori", "gramos": 10},
+          {"nombre": "vinagre de arroz", "gramos": 5},
+          {"nombre": "azúcar", "gramos": 5},
+          {"nombre": "sal", "gramos": 2}
+        ],
+        "tipo": ["proteínas", "carbohidratos"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 250,
+          "proteinas": 20,
+          "carbohidratos": 30,
+          "grasas": 8,
+          "vitaminas": {
+            "A": 10,
+            "C": 2,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Tacos de pollo",
+        "ingredientes": [
+          {"nombre": "tortillas de maíz", "gramos": 100},
+          {"nombre": "pollo", "gramos": 150},
+          {"nombre": "lechuga", "gramos": 50},
+          {"nombre": "tomate", "gramos": 30},
+          {"nombre": "cebolla", "gramos": 20},
+          {"nombre": "salsa", "gramos": 30}
+        ],
+        "tipo": ["proteínas", "carbohidratos"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 18,
+          "carbohidratos": 35,
+          "grasas": 10,
+          "vitaminas": {
+            "A": 5,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Lasagna de vegetales",
+        "ingredientes": [
+          {"nombre": "pasta de lasagna", "gramos": 150},
+          {"nombre": "berenjena", "gramos": 100},
+          {"nombre": "calabacín", "gramos": 80},
+          {"nombre": "tomate", "gramos": 100},
+          {"nombre": "queso mozzarella", "gramos": 80},
+          {"nombre": "salsa de tomate", "gramos": 100}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 15,
+          "carbohidratos": 40,
+          "grasas": 12,
+          "vitaminas": {
+            "A": 8,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada de quinoa",
+        "ingredientes": [
+          {"nombre": "quinoa", "gramos": 100},
+          {"nombre": "espinacas", "gramos": 50},
+          {"nombre": "pepino", "gramos": 50},
+          {"nombre": "tomate cherry", "gramos": 30},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "limón", "gramos": 20},
+          {"nombre": "aceite de oliva", "gramos": 10}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 300,
+          "proteinas": 12,
+          "carbohidratos": 40,
+          "grasas": 10,
+          "vitaminas": {
+            "A": 6,
+            "C": 20,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Pasta Alfredo",
+        "ingredientes": [
+          {"nombre": "pasta", "gramos": 150},
+          {"nombre": "crema de leche", "gramos": 100},
+          {"nombre": "queso parmesano", "gramos": 50},
+          {"nombre": "mantequilla", "gramos": 20},
+          {"nombre": "ajo", "gramos": 10},
+          {"nombre": "perejil", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 380,
+          "proteinas": 10,
+          "carbohidratos": 45,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 4,
+            "C": 2,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Hamburguesa vegetariana",
+        "ingredientes": [
+          {"nombre": "patty de garbanzos", "gramos": 100},
+          {"nombre": "pan de hamburguesa integral", "gramos": 100},
+          {"nombre": "lechuga", "gramos": 20},
+          {"nombre": "tomate", "gramos": 20},
+          {"nombre": "cebolla", "gramos": 15},
+          {"nombre": "aguacate", "gramos": 30},
+          {"nombre": "salsa de tahini", "gramos": 15}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 15,
+          "carbohidratos": 35,
+          "grasas": 12,
+          "vitaminas": {
+            "A": 6,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Poke Bowl de salmón",
+        "ingredientes": [
+          {"nombre": "salmón crudo", "gramos": 120},
+          {"nombre": "arroz integral", "gramos": 100},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "pepino", "gramos": 50},
+          {"nombre": "zanahoria rallada", "gramos": 30},
+          {"nombre": "sésamo", "gramos": 10},
+          {"nombre": "salsa de soja", "gramos": 15}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 350,
+          "proteinas": 22,
+          "carbohidratos": 30,
+          "grasas": 14,
+          "vitaminas": {
+            "A": 8,
+            "C": 6,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Burrito de frijoles",
+        "ingredientes": [
+          {"nombre": "tortilla de harina", "gramos": 100},
+          {"nombre": "frijoles negros", "gramos": 100},
+          {"nombre": "arroz blanco", "gramos": 80},
+          {"nombre": "pimiento rojo", "gramos": 30},
+          {"nombre": "cebolla", "gramos": 20},
+          {"nombre": "queso cheddar", "gramos": 40},
+          {"nombre": "crema agria", "gramos": 30}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 300,
+          "proteinas": 12,
+          "carbohidratos": 35,
+          "grasas": 10,
+          "vitaminas": {
+            "A": 4,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ceviche de camarón",
+        "ingredientes": [
+          {"nombre": "camarones crudos", "gramos": 150},
+          {"nombre": "limón", "gramos": 50},
+          {"nombre": "cebolla morada", "gramos": 30},
+          {"nombre": "cilantro", "gramos": 15},
+          {"nombre": "tomate", "gramos": 50},
+          {"nombre": "pimiento verde", "gramos": 30},
+          {"nombre": "maíz", "gramos": 30}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 20,
+          "carbohidratos": 25,
+          "grasas": 8,
+          "vitaminas": {
+            "A": 12,
+            "C": 20,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Wrap de pollo y aguacate",
+        "ingredientes": [
+          {"nombre": "tortilla de trigo", "gramos": 100},
+          {"nombre": "pollo a la parrilla", "gramos": 120},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "lechuga", "gramos": 30},
+          {"nombre": "tomate", "gramos": 30},
+          {"nombre": "mayonesa", "gramos": 20}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 18,
+          "carbohidratos": 30,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 10,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Poke Bowl de tofu",
+        "ingredientes": [
+          {"nombre": "tofu", "gramos": 150},
+          {"nombre": "arroz sushi", "gramos": 100},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "pepino", "gramos": 50},
+          {"nombre": "edamame", "gramos": 30},
+          {"nombre": "sésamo", "gramos": 10},
+          {"nombre": "salsa de soja", "gramos": 15}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["soja"],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 18,
+          "carbohidratos": 25,
+          "grasas": 12,
+          "vitaminas": {
+            "A": 6,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Pollo al horno con verduras",
+        "ingredientes": [
+          {"nombre": "pollo", "gramos": 200},
+          {"nombre": "papas", "gramos": 150},
+          {"nombre": "zanahorias", "gramos": 100},
+          {"nombre": "cebolla", "gramos": 50},
+          {"nombre": "pimiento rojo", "gramos": 50},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 350,
+          "proteinas": 25,
+          "carbohidratos": 30,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 10,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Sopa de lentejas",
+        "ingredientes": [
+          {"nombre": "lentejas", "gramos": 150},
+          {"nombre": "zanahorias", "gramos": 100},
+          {"nombre": "cebolla", "gramos": 50},
+          {"nombre": "apio", "gramos": 50},
+          {"nombre": "tomate", "gramos": 100},
+          {"nombre": "caldo de verduras", "gramos": 200},
+          {"nombre": "sal y especias", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 220,
+          "proteinas": 15,
+          "carbohidratos": 30,
+          "grasas": 5,
+          "vitaminas": {
+            "A": 8,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada griega",
+        "ingredientes": [
+          {"nombre": "lechuga romana", "gramos": 100},
+          {"nombre": "pepinos", "gramos": 50},
+          {"nombre": "tomates", "gramos": 50},
+          {"nombre": "cebolla roja", "gramos": 30},
+          {"nombre": "aceitunas negras", "gramos": 30},
+          {"nombre": "queso feta", "gramos": 50},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "vinagre de vino tinto", "gramos": 15},
+          {"nombre": "orégano", "gramos": 2}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["lácteos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 10,
+          "carbohidratos": 15,
+          "grasas": 20,
+          "vitaminas": {
+            "A": 6,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Risotto de champiñones",
+        "ingredientes": [
+          {"nombre": "arroz arborio", "gramos": 150},
+          {"nombre": "champiñones", "gramos": 100},
+          {"nombre": "caldo de vegetales", "gramos": 200},
+          {"nombre": "vino blanco", "gramos": 50},
+          {"nombre": "cebolla", "gramos": 50},
+          {"nombre": "ajo", "gramos": 10},
+          {"nombre": "queso parmesano", "gramos": 30},
+          {"nombre": "mantequilla", "gramos": 20},
+          {"nombre": "aceite de oliva", "gramos": 15}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["lácteos", "alcohol"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 8,
+          "carbohidratos": 40,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 4,
+            "C": 2,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Tofu a la plancha con quinoa",
+        "ingredientes": [
+          {"nombre": "tofu", "gramos": 150},
+          {"nombre": "quinoa cocida", "gramos": 100},
+          {"nombre": "espinacas", "gramos": 50},
+          {"nombre": "zanahoria rallada", "gramos": 30},
+          {"nombre": "pimiento rojo", "gramos": 30},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "limón", "gramos": 10},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 18,
+          "carbohidratos": 25,
+          "grasas": 12,
+          "vitaminas": {
+            "A": 6,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Filete de salmón al horno con espárragos",
+        "ingredientes": [
+          {"nombre": "filete de salmón", "gramos": 200},
+          {"nombre": "espárragos", "gramos": 150},
+          {"nombre": "limón", "gramos": 30},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "ajo", "gramos": 10},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 25,
+          "carbohidratos": 5,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 10,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada de garbanzos",
+        "ingredientes": [
+          {"nombre": "garbanzos cocidos", "gramos": 150},
+          {"nombre": "pepino", "gramos": 50},
+          {"nombre": "tomate", "gramos": 50},
+          {"nombre": "cebolla morada", "gramos": 30},
+          {"nombre": "pimiento rojo", "gramos": 30},
+          {"nombre": "perejil", "gramos": 10},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "vinagre balsámico", "gramos": 15},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 15,
+          "carbohidratos": 25,
+          "grasas": 12,
+          "vitaminas": {
+            "A": 6,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Sándwich de pavo y aguacate",
+        "ingredientes": [
+          {"nombre": "pan integral", "gramos": 100},
+          {"nombre": "pavo en lonchas", "gramos": 80},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "tomate", "gramos": 30},
+          {"nombre": "hojas de espinacas", "gramos": 20},
+          {"nombre": "mostaza", "gramos": 10},
+          {"nombre": "mayonesa", "gramos": 10}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 20,
+          "carbohidratos": 25,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 8,
+            "C": 6,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Tostada de aguacate y huevo",
+        "ingredientes": [
+          {"nombre": "pan integral tostado", "gramos": 100},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "huevo", "gramos": 50},
+          {"nombre": "tomate", "gramos": 30},
+          {"nombre": "pimienta roja en escamas", "gramos": 5},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 300,
+          "proteinas": 15,
+          "carbohidratos": 20,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 10,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada de quinoa y vegetales asados",
+        "ingredientes": [
+          {"nombre": "quinoa cocida", "gramos": 100},
+          {"nombre": "calabaza asada", "gramos": 80},
+          {"nombre": "pimiento rojo asado", "gramos": 50},
+          {"nombre": "berenjena asada", "gramos": 50},
+          {"nombre": "cebolla morada", "gramos": 30},
+          {"nombre": "espinacas frescas", "gramos": 50},
+          {"nombre": "vinagreta de limón", "gramos": 20},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 10,
+          "carbohidratos": 40,
+          "grasas": 8,
+          "vitaminas": {
+            "A": 15,
+            "C": 20,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Pasta primavera con vegetales",
+        "ingredientes": [
+          {"nombre": "pasta integral", "gramos": 150},
+          {"nombre": "brócoli", "gramos": 80},
+          {"nombre": "zanahorias", "gramos": 50},
+          {"nombre": "champiñones", "gramos": 50},
+          {"nombre": "espárragos", "gramos": 50},
+          {"nombre": "tomate cherry", "gramos": 30},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "ajo", "gramos": 5},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 12,
+          "carbohidratos": 45,
+          "grasas": 10,
+          "vitaminas": {
+            "A": 10,
+            "C": 25,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Bowl de pollo teriyaki",
+        "ingredientes": [
+          {"nombre": "pollo a la plancha", "gramos": 150},
+          {"nombre": "arroz integral", "gramos": 100},
+          {"nombre": "brócoli al vapor", "gramos": 80},
+          {"nombre": "zanahoria rallada", "gramos": 30},
+          {"nombre": "sésamo", "gramos": 10},
+          {"nombre": "salsa teriyaki", "gramos": 20}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 340,
+          "proteinas": 25,
+          "carbohidratos": 40,
+          "grasas": 8,
+          "vitaminas": {
+            "A": 6,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Tarta de vegetales",
+        "ingredientes": [
+          {"nombre": "masa para tarta", "gramos": 200},
+          {"nombre": "calabacín", "gramos": 100},
+          {"nombre": "berenjena", "gramos": 100},
+          {"nombre": "pimiento rojo", "gramos": 80},
+          {"nombre": "cebolla", "gramos": 50},
+          {"nombre": "tomate", "gramos": 50},
+          {"nombre": "queso mozzarella", "gramos": 100},
+          {"nombre": "huevo", "gramos": 50},
+          {"nombre": "leche", "gramos": 50},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["lácteos", "huevo"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 350,
+          "proteinas": 15,
+          "carbohidratos": 25,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 10,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Sopa tailandesa de coco y pollo",
+        "ingredientes": [
+          {"nombre": "pollo desmenuzado", "gramos": 150},
+          {"nombre": "leche de coco", "gramos": 100},
+          {"nombre": "caldo de pollo", "gramos": 200},
+          {"nombre": "champiñones", "gramos": 80},
+          {"nombre": "cebolla", "gramos": 50},
+          {"nombre": "pimiento rojo", "gramos": 50},
+          {"nombre": "jengibre", "gramos": 10},
+          {"nombre": "limoncillo", "gramos": 10},
+          {"nombre": "chile rojo", "gramos": 5},
+          {"nombre": "hojas de cilantro", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 380,
+          "proteinas": 20,
+          "carbohidratos": 10,
+          "grasas": 25,
+          "vitaminas": {
+            "A": 8,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Pasta Alfredo con pollo",
+        "ingredientes": [
+          {"nombre": "pasta fettuccine", "gramos": 150},
+          {"nombre": "pollo cocido y desmenuzado", "gramos": 100},
+          {"nombre": "crema de leche", "gramos": 80},
+          {"nombre": "queso parmesano rallado", "gramos": 50},
+          {"nombre": "mantequilla", "gramos": 30},
+          {"nombre": "ajo", "gramos": 5},
+          {"nombre": "perejil fresco", "gramos": 5},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["lácteos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 400,
+          "proteinas": 20,
+          "carbohidratos": 30,
+          "grasas": 22,
+          "vitaminas": {
+            "A": 10,
+            "C": 2,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Salmón a la parrilla con puré de papas",
+        "ingredientes": [
+          {"nombre": "filete de salmón", "gramos": 200},
+          {"nombre": "papas", "gramos": 150},
+          {"nombre": "leche", "gramos": 50},
+          {"nombre": "mantequilla", "gramos": 20},
+          {"nombre": "ajo", "gramos": 5},
+          {"nombre": "aceite de oliva", "gramos": 15},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["lácteos"],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 380,
+          "proteinas": 25,
+          "carbohidratos": 20,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 8,
+            "C": 6,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Wrap de salmón ahumado",
+        "ingredientes": [
+          {"nombre": "tortilla de trigo", "gramos": 100},
+          {"nombre": "salmón ahumado", "gramos": 80},
+          {"nombre": "aguacate", "gramos": 50},
+          {"nombre": "rúcula", "gramos": 30},
+          {"nombre": "queso crema", "gramos": 30},
+          {"nombre": "limón", "gramos": 10},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["pescado", "lácteos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 18,
+          "carbohidratos": 25,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 10,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada de espinacas y fresas",
+        "ingredientes": [
+          {"nombre": "espinacas frescas", "gramos": 100},
+          {"nombre": "fresas", "gramos": 80},
+          {"nombre": "queso de cabra", "gramos": 50},
+          {"nombre": "almendras laminadas", "gramos": 30},
+          {"nombre": "vinagreta balsámica", "gramos": 20},
+          {"nombre": "miel", "gramos": 10},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["frutos secos", "lácteos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 250,
+          "proteinas": 8,
+          "carbohidratos": 20,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 20,
+            "C": 30,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Tacos de carne asada",
+        "ingredientes": [
+          {"nombre": "filete de carne asada", "gramos": 150},
+          {"nombre": "tortillas de maíz", "gramos": 100},
+          {"nombre": "cebolla", "gramos": 50},
+          {"nombre": "cilantro", "gramos": 30},
+          {"nombre": "limón", "gramos": 10},
+          {"nombre": "salsa de tomate", "gramos": 20},
+          {"nombre": "salsa de aguacate", "gramos": 20},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 350,
+          "proteinas": 22,
+          "carbohidratos": 30,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 6,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Hamburguesa vegetariana de quinoa",
+        "ingredientes": [
+          {"nombre": "quinoa cocida", "gramos": 100},
+          {"nombre": "frijoles negros cocidos", "gramos": 80},
+          {"nombre": "pan integral de hamburguesa", "gramos": 100},
+          {"nombre": "aguacate en rodajas", "gramos": 50},
+          {"nombre": "cebolla morada en rodajas", "gramos": 30},
+          {"nombre": "hojas de lechuga", "gramos": 30},
+          {"nombre": "tomate en rodajas", "gramos": 30},
+          {"nombre": "salsa de tahini", "gramos": 20},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["semillas de sésamo"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 350,
+          "proteinas": 15,
+          "carbohidratos": 40,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 8,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Curry de garbanzos",
+        "ingredientes": [
+          {"nombre": "garbanzos cocidos", "gramos": 150},
+          {"nombre": "cebolla picada", "gramos": 50},
+          {"nombre": "jengibre rallado", "gramos": 10},
+          {"nombre": "ajo picado", "gramos": 5},
+          {"nombre": "tomate triturado", "gramos": 100},
+          {"nombre": "leche de coco", "gramos": 100},
+          {"nombre": "espinacas frescas", "gramos": 50},
+          {"nombre": "aceite de coco", "gramos": 20},
+          {"nombre": "curry en polvo", "gramos": 10},
+          {"nombre": "cilantro picado", "gramos": 5},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 12,
+          "carbohidratos": 25,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 15,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Pollo al limón con espárragos",
+        "ingredientes": [
+          {"nombre": "pechuga de pollo", "gramos": 200},
+          {"nombre": "espárragos", "gramos": 150},
+          {"nombre": "limón", "gramos": 30},
+          {"nombre": "ajo picado", "gramos": 5},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "tomillo fresco", "gramos": 5},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 300,
+          "proteinas": 30,
+          "carbohidratos": 5,
+          "grasas": 12,
+          "vitaminas": {
+            "A": 4,
+            "C": 20,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada de queso de cabra y remolacha",
+        "ingredientes": [
+          {"nombre": "remolacha asada", "gramos": 100},
+          {"nombre": "queso de cabra", "gramos": 50},
+          {"nombre": "nueces picadas", "gramos": 30},
+          {"nombre": "hojas de espinaca", "gramos": 50},
+          {"nombre": "vinagre balsámico", "gramos": 20},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "miel", "gramos": 10},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "grasas"],
+        "alergenos": ["frutos secos", "lácteos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 280,
+          "proteinas": 10,
+          "carbohidratos": 15,
+          "grasas": 20,
+          "vitaminas": {
+            "A": 8,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Arroz con camarones al ajillo",
+        "ingredientes": [
+          {"nombre": "arroz blanco cocido", "gramos": 150},
+          {"nombre": "camarones pelados", "gramos": 120},
+          {"nombre": "ajo picado", "gramos": 5},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "perejil picado", "gramos": 5},
+          {"nombre": "limón", "gramos": 30},
+          {"nombre": "caldo de pollo", "gramos": 100},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["mariscos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 340,
+          "proteinas": 25,
+          "carbohidratos": 40,
+          "grasas": 10,
+          "vitaminas": {
+            "A": 6,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Ensalada de salmón ahumado y aguacate",
+        "ingredientes": [
+          {"nombre": "salmón ahumado", "gramos": 100},
+          {"nombre": "aguacate en rodajas", "gramos": 80},
+          {"nombre": "hojas de espinacas frescas", "gramos": 50},
+          {"nombre": "tomate cherry", "gramos": 30},
+          {"nombre": "pepino en rodajas", "gramos": 30},
+          {"nombre": "cebolla roja en rodajas", "gramos": 20},
+          {"nombre": "vinagre balsámico", "gramos": 20},
+          {"nombre": "aceite de oliva", "gramos": 15},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "grasas"],
+        "alergenos": ["pescado"],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 20,
+          "carbohidratos": 15,
+          "grasas": 22,
+          "vitaminas": {
+            "A": 10,
+            "C": 20,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Pollo al horno con verduras",
+        "ingredientes": [
+          {"nombre": "pechuga de pollo", "gramos": 200},
+          {"nombre": "papas cortadas en cubos", "gramos": 150},
+          {"nombre": "zanahorias cortadas en rodajas", "gramos": 80},
+          {"nombre": "cebolla cortada en trozos", "gramos": 50},
+          {"nombre": "aceite de oliva", "gramos": 20},
+          {"nombre": "romero fresco", "gramos": 5},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 350,
+          "proteinas": 30,
+          "carbohidratos": 25,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 8,
+            "C": 10,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Cuscús con verduras y garbanzos",
+        "ingredientes": [
+          {"nombre": "cuscús cocido", "gramos": 150},
+          {"nombre": "garbanzos cocidos", "gramos": 100},
+          {"nombre": "pimiento rojo en cubos", "gramos": 50},
+          {"nombre": "calabacín en cubos", "gramos": 50},
+          {"nombre": "cebolla picada", "gramos": 30},
+          {"nombre": "perejil fresco picado", "gramos": 10},
+          {"nombre": "limón", "gramos": 20},
+          {"nombre": "aceite de oliva", "gramos": 15},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": [],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 300,
+          "proteinas": 12,
+          "carbohidratos": 40,
+          "grasas": 10,
+          "vitaminas": {
+            "A": 6,
+            "C": 15,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Poke bowl de salmón",
+        "ingredientes": [
+          {"nombre": "salmón fresco en cubos", "gramos": 150},
+          {"nombre": "arroz de sushi cocido", "gramos": 100},
+          {"nombre": "aguacate en rodajas", "gramos": 50},
+          {"nombre": "pepino en rodajas", "gramos": 30},
+          {"nombre": "zumo de limón", "gramos": 20},
+          {"nombre": "salsa de soja baja en sodio", "gramos": 20},
+          {"nombre": "sésamo tostado", "gramos": 10},
+          {"nombre": "alga nori picada", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["pescado", "semillas de sésamo"],
+        "apto_fumar": false,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 320,
+          "proteinas": 25,
+          "carbohidratos": 30,
+          "grasas": 15,
+          "vitaminas": {
+            "A": 6,
+            "C": 8,
+            "D": 0
+          }
+        }
+      },
+      {
+        "nombre": "Berenjenas rellenas de quinoa y verduras",
+        "ingredientes": [
+          {"nombre": "berenjenas", "gramos": 200},
+          {"nombre": "quinoa cocida", "gramos": 100},
+          {"nombre": "pimiento rojo en cubos", "gramos": 50},
+          {"nombre": "calabacín en cubos", "gramos": 50},
+          {"nombre": "cebolla picada", "gramos": 30},
+          {"nombre": "queso feta desmenuzado", "gramos": 30},
+          {"nombre": "tomate triturado", "gramos": 50},
+          {"nombre": "perejil fresco picado", "gramos": 10},
+          {"nombre": "aceite de oliva", "gramos": 15},
+          {"nombre": "sal y pimienta", "gramos": 5}
+        ],
+        "tipo": ["proteínas", "carbohidratos", "grasas"],
+        "alergenos": ["lácteos"],
+        "apto_fumar": true,
+        "apto_alcohol": true,
+        "informe_nutricional": {
+          "calorias": 330,
+          "proteinas": 15,
+          "carbohidratos": 35,
+          "grasas": 18,
+          "vitaminas": {
+            "A": 10,
+            "C": 15,
+            "D": 0
+          }
+        }
+      }
+  ]
+}
