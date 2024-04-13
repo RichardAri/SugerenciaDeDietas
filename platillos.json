@@ -1,957 +1,3571 @@
 {
-    "platos": [
-      {
-        "nombre": "Ensalada de pollo",
-        "descripcion": "Ensalada fresca con trozos de pollo a la parrilla y vegetales variados.",
-        "ingredientes": ["pollo", "lechuga", "tomate", "cebolla", "zanahoria"],
-        "nutrientes": {
-          "calorias": 250,
-          "proteinas": 20,
-          "carbohidratos": 15,
-          "grasas": 10,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
+  "platos": [
+    {
+      "nombre": "Ensalada de pollo con aguacate",
+      "descripcion": "Ensalada fresca con pechuga de pollo a la parrilla, aguacate, tomate y lechuga.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Aguacate",
+        "Tomate",
+        "Lechuga"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
       },
-      {
-        "nombre": "Salmón al horno",
-        "descripcion": "Salmón fresco horneado con una marinada de hierbas y limón.",
-        "ingredientes": ["salmón", "limón", "cebolla", "ajo", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 25,
-          "carbohidratos": 5,
-          "grasas": 15,
-          "fibra": 2
-        },
-        "restricciones": ["pescado"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Hamburguesa de quinoa",
-        "descripcion": "Hamburguesa vegetariana de quinoa servida con aguacate y vegetales frescos.",
-        "ingredientes": ["quinoa", "aguacate", "cebolla", "tomate", "lechuga"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 18,
-          "carbohidratos": 40,
-          "grasas": 15,
-          "fibra": 8
-        },
-        "restricciones": ["leche"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ensalada de frutas",
-        "descripcion": "Mezcla de frutas frescas de temporada con un toque de menta.",
-        "ingredientes": ["fresas", "uvas", "kiwi", "piña", "menta"],
-        "nutrientes": {
-          "calorias": 150,
-          "proteinas": 2,
-          "carbohidratos": 35,
-          "grasas": 0.5,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Filete de pollo a la parrilla",
-        "descripcion": "Filete de pollo magro a la parrilla con hierbas frescas.",
-        "ingredientes": ["pollo", "romero", "tomillo", "limón", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 200,
-          "proteinas": 30,
-          "carbohidratos": 0,
-          "grasas": 8,
-          "fibra": 0
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Wrap de pollo",
-        "descripcion": "Wrap de pollo con vegetales frescos y aderezo de yogurt.",
-        "ingredientes": ["pollo", "lechuga", "tomate", "pepino", "yogurt", "tortilla de trigo"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 25,
-          "carbohidratos": 30,
-          "grasas": 10,
-          "fibra": 5
-        },
-        "restricciones": ["leche"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Sopa de lentejas",
-        "descripcion": "Sopa reconfortante de lentejas con verduras y hierbas aromáticas.",
-        "ingredientes": ["lentejas", "zanahoria", "cebolla", "apio", "tomate", "especias"],
-        "nutrientes": {
-          "calorias": 250,
-          "proteinas": 15,
-          "carbohidratos": 30,
-          "grasas": 5,
-          "fibra": 10
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ensalada de quinoa",
-        "descripcion": "Ensalada fresca de quinoa con aguacate, tomate y pepino.",
-        "ingredientes": ["quinoa", "aguacate", "tomate", "pepino", "limón", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 10,
-          "carbohidratos": 35,
-          "grasas": 15,
-          "fibra": 8
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Pasta integral con vegetales",
-        "descripcion": "Pasta integral con una variedad de vegetales salteados en aceite de oliva.",
-        "ingredientes": ["pasta integral", "espinacas", "tomate", "pimiento", "cebolla", "ajo"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 12,
-          "carbohidratos": 60,
-          "grasas": 8,
-          "fibra": 10
-        },
-        "restricciones": ["gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Tacos de pescado",
-        "descripcion": "Tacos de pescado fresco servidos con salsa de mango y repollo rallado.",
-        "ingredientes": ["pescado", "tortillas de maíz", "mango", "repollo", "cilantro", "limón"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 20,
-          "carbohidratos": 25,
-          "grasas": 10,
-          "fibra": 6
-        },
-        "restricciones": ["pescado"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Arroz con pollo",
-        "descripcion": "Arroz integral con trozos de pollo cocido y verduras al vapor.",
-        "ingredientes": ["arroz integral", "pollo", "zanahoria", "brócoli", "pimiento", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 18,
-          "carbohidratos": 40,
-          "grasas": 8,
-          "fibra": 6
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ceviche de tofu",
-        "descripcion": "Ceviche vegano con tofu marinado en limón, cebolla morada y cilantro.",
-        "ingredientes": ["tofu", "limón", "cebolla morada", "cilantro", "pimiento", "maíz"],
-        "nutrientes": {
-          "calorias": 200,
-          "proteinas": 15,
-          "carbohidratos": 20,
-          "grasas": 10,
-          "fibra": 4
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ensalada griega",
-        "descripcion": "Ensalada refrescante con pepino, tomate, cebolla roja, queso feta y aceitunas.",
-        "ingredientes": ["pepino", "tomate", "cebolla roja", "queso feta", "aceitunas", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 220,
-          "proteinas": 8,
-          "carbohidratos": 15,
-          "grasas": 15,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Tortilla española",
-        "descripcion": "Clásica tortilla española con papas, cebolla y huevos.",
-        "ingredientes": ["papas", "cebolla", "huevos", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 10,
-          "carbohidratos": 20,
-          "grasas": 15,
-          "fibra": 3
-        },
-        "restricciones": ["huevos"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Bowl de tofu y arroz",
-        "descripcion": "Bowl vegano con tofu, arroz integral, aguacate y vegetales asados.",
-        "ingredientes": ["tofu", "arroz integral", "aguacate", "pimiento", "calabaza", "cebolla"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 18,
-          "carbohidratos": 40,
-          "grasas": 12,
-          "fibra": 8
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ensalada de quinoa mediterránea",
-        "descripcion": "Ensalada de quinoa con tomate, pepino, aceitunas y queso feta, aliñada con vinagreta de limón y hierbas frescas.",
-        "ingredientes": ["quinoa", "tomate", "pepino", "aceitunas", "queso feta", "limón", "aceite de oliva", "hierbas frescas"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 10,
-          "carbohidratos": 35,
-          "grasas": 15,
-          "fibra": 8
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Poke bowl de salmón",
-        "descripcion": "Bowl de arroz de sushi cubierto con dados de salmón fresco marinados en salsa de soja, aguacate, pepino, zanahoria y edamame.",
-        "ingredientes": ["arroz de sushi", "salmón", "salsa de soja", "aguacate", "pepino", "zanahoria", "edamame"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 25,
-          "carbohidratos": 30,
-          "grasas": 12,
-          "fibra": 6
-        },
-        "restricciones": ["pescado", "soja"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Sándwich vegetal",
-        "descripcion": "Sándwich integral con una variedad de vegetales frescos como lechuga, tomate, pepino y aguacate, acompañado de hummus.",
-        "ingredientes": ["pan integral", "lechuga", "tomate", "pepino", "aguacate", "hummus"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 10,
-          "carbohidratos": 40,
-          "grasas": 12,
-          "fibra": 8
-        },
-        "restricciones": ["gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Tacos de tofu al chipotle",
-        "descripcion": "Tacos vegetarianos de tofu con una deliciosa salsa de chipotle, servidos con cilantro y cebolla encurtida.",
-        "ingredientes": ["tofu", "tortillas de maíz", "chipotle", "cilantro", "cebolla", "limón"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 20,
-          "carbohidratos": 25,
-          "grasas": 10,
-          "fibra": 6
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Bowl de verduras asadas",
-        "descripcion": "Bowl vegetariano con una variedad de verduras asadas como calabaza, zanahoria, brócoli y pimientos, servido sobre una cama de arroz integral.",
-        "ingredientes": ["calabaza", "zanahoria", "brócoli", "pimientos", "arroz integral", "aceite de oliva", "especias"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 8,
-          "carbohidratos": 50,
-          "grasas": 10,
-          "fibra": 12
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Hummus de remolacha",
-        "descripcion": "Dip de hummus hecho con remolacha asada, servido con bastones de verduras crudas y pan pita integral.",
-        "ingredientes": ["remolacha", "garbanzos", "limón", "ajo", "aceite de oliva", "verduras crudas", "pan pita integral"],
-        "nutrientes": {
-          "calorias": 250,
-          "proteinas": 8,
-          "carbohidratos": 25,
-          "grasas": 12,
-          "fibra": 8
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Rolls de primavera vegetarianos",
-        "descripcion": "Rolls de arroz de papel de arroz rellenos de vegetales frescos como pepino, zanahoria y aguacate, servidos con salsa de cacahuate.",
-        "ingredientes": ["papel de arroz", "pepino", "zanahoria", "aguacate", "menta", "cilantro", "salsa de cacahuate"],
-        "nutrientes": {
-          "calorias": 220,
-          "proteinas": 6,
-          "carbohidratos": 30,
-          "grasas": 10,
-          "fibra": 6
-        },
-        "restricciones": ["mani"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Pizza vegetal",
-        "descripcion": "Pizza casera con masa integral, salsa de tomate, mozzarella, champiñones, pimientos y espinacas.",
-        "ingredientes": ["masa integral", "salsa de tomate", "mozzarella", "champiñones", "pimientos", "espinacas"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 12,
-          "carbohidratos": 35,
-          "grasas": 10,
-          "fibra": 7
-        },
-        "restricciones": ["gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Buddha bowl de garbanzos",
-        "descripcion": "Bowl vegano con garbanzos al horno, batata asada, brócoli, espinacas y aderezo de tahini.",
-        "ingredientes": ["garbanzos", "batata", "brócoli", "espinacas", "tahini", "limón", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 15,
-          "carbohidratos": 40,
-          "grasas": 12,
-          "fibra": 10
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Curry de lentejas",
-        "descripcion": "Curry vegano con lentejas, vegetales mixtos y una mezcla de especias aromáticas.",
-        "ingredientes": ["lentejas", "cebolla", "tomate", "zanahoria", "pimiento", "leche de coco", "curry en polvo"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 15,
-          "carbohidratos": 40,
-          "grasas": 10,
-          "fibra": 12
-        },
-        "restricciones": ["leche"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Pasta con pesto de espinacas",
-        "descripcion": "Pasta integral con pesto casero de espinacas, ajo, nueces y queso parmesano.",
-        "ingredientes": ["pasta integral", "espinacas", "ajo", "nueces", "queso parmesano", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 12,
-          "carbohidratos": 45,
-          "grasas": 15,
-          "fibra": 8
-        },
-        "restricciones": ["nueces"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Fajitas vegetarianas",
-        "descripcion": "Fajitas vegetarianas con tiras de pimiento, cebolla, champiñones y guacamole, servidas con tortillas de maíz.",
-        "ingredientes": ["pimientos", "cebolla", "champiñones", "aguacate", "limón", "tortillas de maíz"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 8,
-          "carbohidratos": 40,
-          "grasas": 10,
-          "fibra": 9
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Tofu al limón con arroz",
-        "descripcion": "Tofu salteado en una salsa de limón y jengibre, servido con arroz basmati.",
-        "ingredientes": ["tofu", "limón", "jengibre", "ajo", "arroz basmati", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 18,
-          "carbohidratos": 45,
-          "grasas": 10,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ensalada de garbanzos",
-        "descripcion": "Ensalada fresca de garbanzos con pepino, tomate, cebolla roja y aderezo de yogur.",
-        "ingredientes": ["garbanzos", "pepino", "tomate", "cebolla roja", "yogur", "limón"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 10,
-          "carbohidratos": 35,
-          "grasas": 8,
-          "fibra": 9
-        },
-        "restricciones": ["leche"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Berenjenas rellenas de quinoa",
-        "descripcion": "Berenjenas horneadas rellenas de quinoa, espinacas, tomate y queso mozzarella.",
-        "ingredientes": ["berenjenas", "quinoa", "espinacas", "tomate", "queso mozzarella", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 12,
-          "carbohidratos": 35,
-          "grasas": 10,
-          "fibra": 8
-        },
-        "restricciones": ["leche"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Cuscús de verduras",
-        "descripcion": "Cuscús con una mezcla de verduras asadas como calabaza, zanahoria y pimientos, aliñado con hierbas frescas.",
-        "ingredientes": ["cuscús", "calabaza", "zanahoria", "pimientos", "aceite de oliva", "hierbas frescas"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 8,
-          "carbohidratos": 45,
-          "grasas": 10,
-          "fibra": 7
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Batata asada con alioli de aguacate",
-        "descripcion": "Batata asada al horno servida con una cremosa salsa de alioli de aguacate.",
-        "ingredientes": ["batata", "aguacate", "limón", "ajo", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 250,
-          "proteinas": 4,
-          "carbohidratos": 30,
-          "grasas": 12,
-          "fibra": 6
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Bowl de ensalada de frutas",
-        "descripcion": "Bowl refrescante con una mezcla de frutas frescas como fresas, piña, mango y kiwi, acompañadas de menta y una pizca de miel.",
-        "ingredientes": ["fresas", "piña", "mango", "kiwi", "menta", "miel"],
-        "nutrientes": {
-          "calorias": 200,
-          "proteinas": 3,
-          "carbohidratos": 50,
-          "grasas": 1,
-          "fibra": 10
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Berenjenas rellenas de queso de cabra y espinacas",
-        "descripcion": "Berenjenas horneadas rellenas de queso de cabra, espinacas y nueces, cubiertas con salsa marinara.",
-        "ingredientes": ["berenjenas", "queso de cabra", "espinacas", "nueces", "salsa marinara"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 12,
-          "carbohidratos": 20,
-          "grasas": 15,
-          "fibra": 8
-        },
-        "restricciones": ["nueces"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Hamburguesa de lentejas",
-        "descripcion": "Hamburguesa vegetariana hecha con lentejas, zanahoria, cebolla y especias, servida en un pan integral con aguacate y tomate.",
-        "ingredientes": ["lentejas", "zanahoria", "cebolla", "pan integral", "aguacate", "tomate"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 15,
-          "carbohidratos": 40,
-          "grasas": 10,
-          "fibra": 9
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Curry de garbanzos",
-        "descripcion": "Curry vegano con garbanzos, patatas, tomate, cebolla y una mezcla de especias exóticas.",
-        "ingredientes": ["garbanzos", "patatas", "tomate", "cebolla", "especias"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 12,
-          "carbohidratos": 35,
-          "grasas": 10,
-          "fibra": 8
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Ensalada de queso de cabra y remolacha",
-        "descripcion": "Ensalada fresca con queso de cabra, remolacha asada, nueces y espinacas, aliñada con vinagreta balsámica.",
-        "ingredientes": ["queso de cabra", "remolacha", "nueces", "espinacas", "vinagreta balsámica"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 10,
-          "carbohidratos": 20,
-          "grasas": 15,
-          "fibra": 8
-        },
-        "restricciones": ["nueces"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Wrap vegetariano de hummus",
-        "descripcion": "Wrap integral relleno de hummus, verduras frescas como pepino, zanahoria y lechuga, envuelto en una tortilla de trigo integral.",
-        "ingredientes": ["hummus", "pepino", "zanahoria", "lechuga", "tortilla de trigo integral"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 8,
-          "carbohidratos": 35,
-          "grasas": 10,
-          "fibra": 8
-        },
-        "restricciones": ["gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Arroz frito vegetariano",
-        "descripcion": "Arroz integral salteado con vegetales frescos como zanahoria, brócoli, guisantes y cebolla, aliñado con salsa de soja.",
-        "ingredientes": ["arroz integral", "zanahoria", "brócoli", "guisantes", "cebolla", "salsa de soja"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 8,
-          "carbohidratos": 50,
-          "grasas": 10,
-          "fibra": 7
-        },
-        "restricciones": ["soja"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Bruschetta de tomate y albahaca",
-        "descripcion": "Pan integral tostado cubierto con tomates frescos, ajo, albahaca y aceite de oliva, una opción deliciosa como aperitivo o entrada.",
-        "ingredientes": ["pan integral", "tomate", "ajo", "albahaca", "aceite de oliva"],
-        "nutrientes": {
-          "calorias": 200,
-          "proteinas": 5,
-          "carbohidratos": 25,
-          "grasas": 10,
-          "fibra": 6
-        },
-        "restricciones": ["gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Sopa de tomate y albahaca",
-        "descripcion": "Sopa cremosa de tomate con un toque de albahaca fresca, perfecta para calentar en días fríos.",
-        "ingredientes": ["tomate", "cebolla", "ajo", "albahaca", "caldo de verduras"],
-        "nutrientes": {
-          "calorias": 180,
-          "proteinas": 4,
-          "carbohidratos": 25,
-          "grasas": 8,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Bolitas de falafel",
-        "descripcion": "Bolitas de garbanzos y especias, fritas hasta que estén doradas y crujientes, acompañadas de salsa de yogur.",
-        "ingredientes": ["garbanzos", "cebolla", "perejil", "comino", "cilantro", "yogur"],
-        "nutrientes": {
-          "calorias": 220,
-          "proteinas": 8,
-          "carbohidratos": 30,
-          "grasas": 10,
-          "fibra": 6
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Bowl de arroz con aguacate y salmón",
-        "descripcion": "Bowl de arroz integral con aguacate, salmón fresco, pepino y zanahoria, aliñado con una salsa de soja y jengibre.",
-        "ingredientes": ["arroz integral", "aguacate", "salmón", "pepino", "zanahoria", "salsa de soja", "jengibre"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 25,
-          "carbohidratos": 30,
-          "grasas": 12,
-          "fibra": 6
-        },
-        "restricciones": ["pescado", "soja"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Moderada",
-        "imc_recomendado": {"min": 18.5, "max": 25}
-      },
-      {
-        "nombre": "Salmón al horno con espárragos",
-        "descripcion": "Filete de salmón fresco al horno acompañado de espárragos al vapor.",
-        "ingredientes": ["salmón fresco", "espárragos", "aceite de oliva", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 25,
-          "carbohidratos": 5,
-          "grasas": 15,
-          "fibra": 3
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Ensalada griega",
-        "descripcion": "Ensalada fresca con pepino, tomate, cebolla roja, aceitunas y queso feta, aderezada con aceite de oliva y jugo de limón.",
-        "ingredientes": ["pepino", "tomate", "cebolla roja", "aceitunas", "queso feta", "aceite de oliva", "limón", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 8,
-          "carbohidratos": 10,
-          "grasas": 20,
-          "fibra": 6
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Sopa de verduras",
-        "descripcion": "Sopa casera con una variedad de verduras como zanahorias, calabacines, pimientos y judías verdes, cocidas en caldo de pollo.",
-        "ingredientes": ["zanahorias", "calabacines", "pimientos", "judías verdes", "caldo de pollo", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 200,
-          "proteinas": 6,
-          "carbohidratos": 15,
-          "grasas": 8,
-          "fibra": 4
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Filete de pollo a la parrilla con vegetales al vapor",
-        "descripcion": "Filete de pollo a la parrilla acompañado de una variedad de vegetales al vapor.",
-        "ingredientes": ["filete de pollo", "brócoli", "zanahorias", "calabacín", "aceite de oliva", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 30,
-          "carbohidratos": 10,
-          "grasas": 15,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Wrap de pavo y aguacate",
-        "descripcion": "Wrap con rebanadas de pechuga de pavo, aguacate, hojas de lechuga y tomate.",
-        "ingredientes": ["tortilla de trigo", "pechuga de pavo", "aguacate", "lechuga", "tomate", "mostaza", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 300,
-          "proteinas": 25,
-          "carbohidratos": 20,
-          "grasas": 12,
-          "fibra": 6
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Hamburguesa de pavo con ensalada",
-        "descripcion": "Hamburguesa de pavo servida con una ensalada fresca de hojas verdes, tomate y pepino.",
-        "ingredientes": ["hamburguesa de pavo", "hojas verdes", "tomate", "pepino", "vinagreta balsámica", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 28,
-          "carbohidratos": 15,
-          "grasas": 18,
-          "fibra": 4
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Ensalada de quinoa y verduras",
-        "descripcion": "Ensalada de quinoa con una variedad de verduras frescas como tomate, pepino, pimientos y cebolla roja, aliñada con vinagreta de limón y aceite de oliva.",
-        "ingredientes": ["quinoa cocida", "tomate", "pepino", "pimientos", "cebolla roja", "limón", "aceite de oliva", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 10,
-          "carbohidratos": 40,
-          "grasas": 12,
-          "fibra": 8
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Tortilla de espinacas y champiñones",
-        "descripcion": "Tortilla de huevo con espinacas frescas, champiñones y queso rallado.",
-        "ingredientes": ["huevos", "espinacas frescas", "champiñones", "queso rallado", "aceite de oliva", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 280,
-          "proteinas": 15,
-          "carbohidratos": 8,
-          "grasas": 20,
-          "fibra": 4
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Pechuga de pollo al horno con vegetales",
-        "descripcion": "Pechuga de pollo al horno con brócoli, zanahorias y calabacines asados.",
-        "ingredientes": ["pechuga de pollo", "brócoli", "zanahorias", "calabacín", "aceite de oliva", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 30,
-          "carbohidratos": 10,
-          "grasas": 15,
-          "fibra": 5
-        },
-        "restricciones": [],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Ensalada de salmón y aguacate",
-        "descripcion": "Ensalada fresca con salmón a la parrilla, aguacate, tomate y pepino.",
-        "ingredientes": ["salmón fresco", "aguacate", "tomate", "pepino", "hojas verdes", "vinagreta de limón", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 350,
-          "proteinas": 25,
-          "carbohidratos": 15,
-          "grasas": 20,
-          "fibra": 6
-        },
-        "restricciones": ["Pescado", "Sésamo"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Tacos de carne molida con tortillas de maíz",
-        "descripcion": "Tacos de carne molida sazonada con especias, servidos con tortillas de maíz y salsa fresca.",
-        "ingredientes": ["carne molida de res", "tortillas de maíz", "cebolla", "tomate", "cilantro", "limón", "chile", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 380,
-          "proteinas": 20,
-          "carbohidratos": 25,
-          "grasas": 22,
-          "fibra": 4
-        },
-        "restricciones": ["Gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Wrap vegetariano de falafel",
-        "descripcion": "Wrap relleno de falafel, hummus, vegetales frescos y salsa de yogur.",
-        "ingredientes": ["falafel", "tortilla de trigo", "hummus", "pepino", "tomate", "cebolla morada", "hojas verdes", "salsa de yogur", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 320,
-          "proteinas": 15,
-          "carbohidratos": 35,
-          "grasas": 18,
-          "fibra": 8
-        },
-        "restricciones": ["Lácteos", "Frutos secos", "Gluten"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
-      },
-      {
-        "nombre": "Arroz frito con vegetales y pollo",
-        "descripcion": "Arroz integral salteado con pollo, zanahorias, guisantes, cebolla y huevo.",
-        "ingredientes": ["arroz integral cocido", "pollo", "zanahorias", "guisantes", "cebolla", "huevo", "aceite de oliva", "salsa de soja baja en sodio", "sal", "pimienta"],
-        "nutrientes": {
-          "calorias": 360,
-          "proteinas": 22,
-          "carbohidratos": 40,
-          "grasas": 15,
-          "fibra": 6
-        },
-        "restricciones": ["Huevo", "Soja"],
-        "edad_recomendada": {"min": 18, "max": 60},
-        "genero_recomendado": "Ambos",
-        "actividad_fisica_recomendada": "Sedentaria",
-        "imc_recomendado": {"min": 30, "max": 40}
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
       }
-    ]
-  }
-  
+    },
+    {
+      "nombre": "Salmon al horno con brocoli",
+      "descripcion": "Filete de salmon horneado con brocoli al vapor y limon.",
+      "ingredientes": [
+        "Salmon",
+        "Brocoli",
+        "Limon"
+      ],
+      "alergias": [
+        "Pescado"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Pasta primavera vegetariana",
+      "descripcion": "Pasta integral con vegetales frescos salteados en aceite de oliva y ajo.",
+      "ingredientes": [
+        "Pasta integral",
+        "Vegetales variados",
+        "Aceite de oliva",
+        "Ajo"
+      ],
+      "alergias": [
+        "Gluten"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa con aguacate y garbanzos",
+      "descripcion": "Ensalada nutritiva con quinoa cocida, aguacate, garbanzos, tomate y cilantro.",
+      "ingredientes": [
+        "Quinoa",
+        "Aguacate",
+        "Garbanzos",
+        "Tomate",
+        "Cilantro"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Filete de ternera a la parrilla con esparragos",
+      "descripcion": "Delicioso filete de ternera magra a la parrilla con esparragos frescos.",
+      "ingredientes": [
+        "Filete de ternera",
+        "Esparragos"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Tacos de pescado con salsa de mango",
+      "descripcion": "Tortillas de maiz rellenas de filete de pescado a la parrilla, salsa de mango y repollo rallado.",
+      "ingredientes": [
+        "Filete de pescado",
+        "Tortillas de maiz",
+        "Mango",
+        "Repollo"
+      ],
+      "alergias": [
+        "Gluten"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Curry de pollo con arroz integral",
+      "descripcion": "Pollo cocido en salsa de curry con verduras mixtas, servido con arroz integral.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Curry en polvo",
+        "Verduras mixtas",
+        "Arroz integral"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada Cesar con camarones",
+      "descripcion": "Ensalada clasica Cesar con camarones a la parrilla, crutones de pan integral y aderezo de yogur.",
+      "ingredientes": [
+        "Camarones",
+        "Lechuga romana",
+        "Crutones de pan integral",
+        "Aderezo de yogur"
+      ],
+      "alergias": [
+        "Gluten",
+        "Mariscos"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Risotto de champinones",
+      "descripcion": "Arroz arborio cocido con caldo de verduras y champinones salteados en mantequilla.",
+      "ingredientes": [
+        "Arroz arborio",
+        "Caldo de verduras",
+        "Champinones",
+        "Mantequilla"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Hamburguesa de lentejas",
+      "descripcion": "Hamburguesa vegana a base de lentejas, servida con aguacate, lechuga y tomate en pan integral.",
+      "ingredientes": [
+        "Lentejas",
+        "Aguacate",
+        "Lechuga",
+        "Tomate",
+        "Pan integral"
+      ],
+      "alergias": [
+        "Gluten"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tofu con verduras al wok",
+      "descripcion": "Tofu salteado con una variedad de verduras frescas en salsa de soja y jengibre.",
+      "ingredientes": [
+        "Tofu",
+        "Verduras mixtas",
+        "Salsa de soja",
+        "Jengibre"
+      ],
+      "alergias": [
+        "Soja"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de lentejas",
+      "descripcion": "Sopa nutritiva de lentejas con zanahorias, apio y tomates.",
+      "ingredientes": [
+        "Lentejas",
+        "Zanahorias",
+        "Apio",
+        "Tomates"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Wrap de pollo con hummus",
+      "descripcion": "Wrap integral relleno de pollo a la parrilla, hummus, pepino y espinacas.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Tortilla integral",
+        "Hummus",
+        "Pepino",
+        "Espinacas"
+      ],
+      "alergias": [
+        "Gluten"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pizza de vegetales",
+      "descripcion": "Pizza casera con salsa de tomate, queso mozzarella y una variedad de vegetales frescos.",
+      "ingredientes": [
+        "Masa de pizza integral",
+        "Salsa de tomate",
+        "Queso mozzarella",
+        "Vegetales variados"
+      ],
+      "alergias": [
+        "Gluten"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa con camarones y aguacate",
+      "descripcion": "Ensalada de quinoa con camarones a la parrilla, aguacate, tomate y vinagreta de limon.",
+      "ingredientes": [
+        "Quinoa",
+        "Camarones",
+        "Aguacate",
+        "Tomate",
+        "Vinagreta de limon"
+      ],
+      "alergias": [
+        "Mariscos"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon a la parrilla con esparragos",
+      "descripcion": "Filete de salmon fresco a la parrilla con esparragos al vapor y rodajas de limon.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Esparragos",
+        "Limon"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa y fresas",
+      "descripcion": "Ensalada fresca de quinoa, fresas, espinacas, nueces y aderezo de vinagreta balsamica.",
+      "ingredientes": [
+        "Quinoa",
+        "Fresas",
+        "Espinacas",
+        "Nueces",
+        "Vinagreta balsamica"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Wrap de tofu con aguacate",
+      "descripcion": "Wrap vegano relleno de tofu marinado, aguacate, espinacas y aderezo de tahini.",
+      "ingredientes": [
+        "Tofu",
+        "Tortilla de trigo integral",
+        "Aguacate",
+        "Espinacas",
+        "Aderezo de tahini"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Arroz con pollo al curry",
+      "descripcion": "Arroz integral cocido con trozos de pollo en salsa de curry y vegetales mixtos.",
+      "ingredientes": [
+        "Arroz integral",
+        "Pechuga de pollo",
+        "Curry en polvo",
+        "Vegetales mixtos"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada caprese con pesto",
+      "descripcion": "Ensalada clasica caprese con tomate, mozzarella fresca, albahaca y pesto casero.",
+      "ingredientes": [
+        "Tomate",
+        "Mozzarella fresca",
+        "Albahaca",
+        "Pesto casero"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Ensalada de salmon ahumado",
+      "descripcion": "Ensalada fresca con salmon ahumado, rucula, aguacate, tomate cherry y aderezo de limon.",
+      "ingredientes": [
+        "Salmon ahumado",
+        "Rucula",
+        "Aguacate",
+        "Tomate cherry",
+        "Aderezo de limon"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Pollo al horno con batatas asadas",
+      "descripcion": "Pechuga de pollo al horno con hierbas aromaticas, servida con batatas asadas y brocoli al vapor.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Batatas",
+        "Hierbas aromaticas",
+        "Brocoli"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tacos de pescado",
+      "descripcion": "Tortillas de maiz rellenas de filete de pescado a la parrilla, repollo morado, aguacate y salsa de chipotle.",
+      "ingredientes": [
+        "Filete de pescado",
+        "Tortillas de maiz",
+        "Repollo morado",
+        "Aguacate",
+        "Salsa de chipotle"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa y aguacate",
+      "descripcion": "Ensalada de quinoa con aguacate, tomate, pepino, cilantro y aderezo de lima.",
+      "ingredientes": [
+        "Quinoa",
+        "Aguacate",
+        "Tomate",
+        "Pepino",
+        "Cilantro",
+        "Aderezo de lima"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Hamburguesa vegetariana de garbanzos",
+      "descripcion": "Hamburguesa vegetariana casera a base de garbanzos y vegetales, servida con pan integral, lechuga y tomate.",
+      "ingredientes": [
+        "Garbanzos",
+        "Vegetales mixtos",
+        "Pan integral",
+        "Lechuga",
+        "Tomate"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tacos de carne asada",
+      "descripcion": "Tortillas de maiz rellenas de carne asada marinada, cebolla, cilantro y salsa de tomate.",
+      "ingredientes": [
+        "Carne asada",
+        "Tortillas de maiz",
+        "Cebolla",
+        "Cilantro",
+        "Salsa de tomate"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de espinacas con fresas y nueces",
+      "descripcion": "Ensalada fresca de espinacas, fresas, nueces, queso feta y aderezo de vinagreta balsamica.",
+      "ingredientes": [
+        "Espinacas",
+        "Fresas",
+        "Nueces",
+        "Queso feta",
+        "Vinagreta balsamica"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pasta primavera con vegetales",
+      "descripcion": "Pasta integral con una variedad de vegetales frescos salteados en aceite de oliva y ajo.",
+      "ingredientes": [
+        "Pasta integral",
+        "Vegetales mixtos",
+        "Aceite de oliva",
+        "Ajo"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Rollitos de sushi vegetarianos",
+      "descripcion": "Rollitos de sushi rellenos de pepino, aguacate, zanahoria y tofu, servidos con salsa de soja.",
+      "ingredientes": [
+        "Arroz para sushi",
+        "Pepino",
+        "Aguacate",
+        "Zanahoria",
+        "Tofu",
+        "Salsa de soja"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pizza vegetariana con masa integral",
+      "descripcion": "Pizza casera con masa integral, salsa de tomate, queso mozzarella, champinones, pimientos y cebolla.",
+      "ingredientes": [
+        "Masa integral para pizza",
+        "Salsa de tomate",
+        "Queso mozzarella",
+        "Champinones",
+        "Pimientos",
+        "Cebolla"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon a la parrilla con esparragos",
+      "descripcion": "Filete de salmon fresco a la parrilla con esparragos al vapor y una salsa de limon y hierbas.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Esparragos",
+        "Limon",
+        "Hierbas frescas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Ensalada Cesar con pollo a la parrilla",
+      "descripcion": "Ensalada clasica Cesar con lechuga romana, pollo a la parrilla, crutones de pan integral y aderezo Cesar casero.",
+      "ingredientes": [
+        "Lechuga romana",
+        "Pechuga de pollo",
+        "Crutones de pan integral",
+        "Aderezo Cesar"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de lentejas vegetariana",
+      "descripcion": "Sopa casera de lentejas con vegetales frescos, tomates y especias aromaticas.",
+      "ingredientes": [
+        "Lentejas",
+        "Vegetales mixtos",
+        "Tomates",
+        "Especias aromaticas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tostadas de aguacate y huevo",
+      "descripcion": "Tostadas de pan integral con aguacate machacado, huevo pochado y un toque de pimienta negra.",
+      "ingredientes": [
+        "Pan integral",
+        "Aguacate",
+        "Huevo",
+        "Pimienta negra"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Arroz frito con verduras y tofu",
+      "descripcion": "Arroz integral salteado con una variedad de verduras frescas y tofu, sazonado con salsa de soja y jengibre.",
+      "ingredientes": [
+        "Arroz integral",
+        "Verduras mixtas",
+        "Tofu",
+        "Salsa de soja",
+        "Jengibre"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Hamburguesa de quinoa y lentejas",
+      "descripcion": "Hamburguesa vegana de quinoa, lentejas y vegetales, servida con pan integral, lechuga, tomate y salsa de aguacate.",
+      "ingredientes": [
+        "Quinoa",
+        "Lentejas",
+        "Vegetales mixtos",
+        "Pan integral",
+        "Lechuga",
+        "Tomate",
+        "Aguacate"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sandwich de pavo y aguacate",
+      "descripcion": "Sandwich de pan integral relleno de pechuga de pavo, aguacate, espinacas y mostaza Dijon.",
+      "ingredientes": [
+        "Pan integral",
+        "Pechuga de pavo",
+        "Aguacate",
+        "Espinacas",
+        "Mostaza Dijon"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa con camarones",
+      "descripcion": "Ensalada fresca de quinoa con camarones cocidos, aguacate, pepino, tomate cherry y aderezo de limon y cilantro.",
+      "ingredientes": [
+        "Quinoa",
+        "Camarones",
+        "Aguacate",
+        "Pepino",
+        "Tomate cherry",
+        "Limon",
+        "Cilantro"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tacos de pescado con mango",
+      "descripcion": "Tacos de pescado a la parrilla con salsa de mango, col morada rallada y cilantro, servidos en tortillas de maiz.",
+      "ingredientes": [
+        "Filete de pescado",
+        "Mango",
+        "Col morada",
+        "Cilantro",
+        "Tortillas de maiz"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Bowl de poke de salmon",
+      "descripcion": "Bowl de arroz integral con salmon marinado, aguacate, pepino, edamame, zanahoria rallada y aderezo de soja y sesamo.",
+      "ingredientes": [
+        "Arroz integral",
+        "Salmon",
+        "Aguacate",
+        "Pepino",
+        "Edamame",
+        "Zanahoria",
+        "Salsa de soja",
+        "Sesamo"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de espinacas y fresas con aderezo de balsamico",
+      "descripcion": "Ensalada fresca de espinacas baby, fresas, nueces y queso feta, aderezada con vinagreta balsamica.",
+      "ingredientes": [
+        "Espinacas baby",
+        "Fresas",
+        "Nueces",
+        "Queso feta",
+        "Vinagre balsamico"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon al horno con costra de hierbas",
+      "descripcion": "Filete de salmon fresco horneado con una costra de hierbas frescas, servido con esparragos al vapor.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Hierbas frescas",
+        "Esparragos"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Enfermedad cardiovascular"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Tacos de pollo a la parrilla con guacamole",
+      "descripcion": "Tacos de pollo a la parrilla servidos en tortillas de maiz, con guacamole casero, cebolla y cilantro.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Tortillas de maiz",
+        "Aguacate",
+        "Cebolla",
+        "Cilantro"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Berenjenas rellenas de quinoa y verduras",
+      "descripcion": "Berenjenas horneadas rellenas de quinoa, espinacas, champinones y tomate, gratinadas con queso mozzarella.",
+      "ingredientes": [
+        "Berenjenas",
+        "Quinoa",
+        "Espinacas",
+        "Champinones",
+        "Tomate",
+        "Queso mozzarella"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de tomate y albahaca",
+      "descripcion": "Sopa casera de tomate y albahaca, cocinada a fuego lento con cebolla, ajo y caldo de vegetales.",
+      "ingredientes": [
+        "Tomate",
+        "Albahaca",
+        "Cebolla",
+        "Ajo",
+        "Caldo de vegetales"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de espinacas y fresas con aderezo de balsamico",
+      "descripcion": "Ensalada fresca de espinacas baby, fresas, nueces y queso feta, aderezada con vinagreta balsamica.",
+      "ingredientes": [
+        "Espinacas baby",
+        "Fresas",
+        "Nueces",
+        "Queso feta",
+        "Vinagre balsamico"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon al horno con costra de hierbas",
+      "descripcion": "Filete de salmon fresco horneado con una costra de hierbas frescas, servido con esparragos al vapor.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Hierbas frescas",
+        "Esparragos"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Enfermedad cardiovascular"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Tacos de pollo a la parrilla con guacamole",
+      "descripcion": "Tacos de pollo a la parrilla servidos en tortillas de maiz, con guacamole casero, cebolla y cilantro.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Tortillas de maiz",
+        "Aguacate",
+        "Cebolla",
+        "Cilantro"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Berenjenas rellenas de quinoa y verduras",
+      "descripcion": "Berenjenas horneadas rellenas de quinoa, espinacas, champinones y tomate, gratinadas con queso mozzarella.",
+      "ingredientes": [
+        "Berenjenas",
+        "Quinoa",
+        "Espinacas",
+        "Champinones",
+        "Tomate",
+        "Queso mozzarella"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de tomate y albahaca",
+      "descripcion": "Sopa casera de tomate y albahaca, cocinada a fuego lento con cebolla, ajo y caldo de vegetales.",
+      "ingredientes": [
+        "Tomate",
+        "Albahaca",
+        "Cebolla",
+        "Ajo",
+        "Caldo de vegetales"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tortitas de avena y platano",
+      "descripcion": "Tortitas esponjosas hechas con avena, platano maduro, huevos y canela, acompanadas de bayas frescas.",
+      "ingredientes": [
+        "Avena",
+        "Platano",
+        "Huevos",
+        "Canela",
+        "Bayas frescas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa y aguacate",
+      "descripcion": "Ensalada nutritiva de quinoa cocida, aguacate, tomate cherry, pepino, cebolla roja y cilantro, alinada con limon y aceite de oliva.",
+      "ingredientes": [
+        "Quinoa",
+        "Aguacate",
+        "Tomate cherry",
+        "Pepino",
+        "Cebolla roja",
+        "Cilantro",
+        "Limon",
+        "Aceite de oliva"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Alta",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Bowl de pollo y verduras asadas",
+      "descripcion": "Bowl saludable con pollo a la parrilla, brocoli, zanahorias y batata asadas, servido sobre una base de arroz integral.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Brocoli",
+        "Zanahorias",
+        "Batata",
+        "Arroz integral"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tofu a la plancha con esparragos y champinones",
+      "descripcion": "Tofu marinado y a la plancha, acompanado de esparragos frescos y champinones salteados en aceite de oliva y ajo.",
+      "ingredientes": [
+        "Tofu",
+        "Esparragos",
+        "Champinones",
+        "Aceite de oliva",
+        "Ajo"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Hamburguesa de pavo con aguacate",
+      "descripcion": "Hamburguesa jugosa de carne de pavo, servida en un pan integral con rodajas de aguacate, tomate y lechuga.",
+      "ingredientes": [
+        "Carne de pavo",
+        "Pan integral",
+        "Aguacate",
+        "Tomate",
+        "Lechuga"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Diabetes tipo 2",
+        "Enfermedad cardiovascular",
+        "Obesidad"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada Cesar con pollo a la parrilla",
+      "descripcion": "Ensalada clasica Cesar con lechuga romana fresca, pollo a la parrilla, crutones de pan integral y aderezo Cesar casero.",
+      "ingredientes": [
+        "Lechuga romana",
+        "Pechuga de pollo",
+        "Crutones de pan integral",
+        "Queso parmesano",
+        "Aderezo Cesar"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon al horno con costra de nueces",
+      "descripcion": "Filete de salmon fresco horneado con una costra crujiente de nueces, servido con esparragos al vapor.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Nueces",
+        "Esparragos"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Wrap de pavo y aguacate",
+      "descripcion": "Wrap de tortilla integral relleno de pechuga de pavo, aguacate, lechuga, tomate y mostaza Dijon.",
+      "ingredientes": [
+        "Tortilla integral",
+        "Pechuga de pavo",
+        "Aguacate",
+        "Lechuga",
+        "Tomate",
+        "Mostaza Dijon"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa y vegetales asados",
+      "descripcion": "Ensalada nutritiva de quinoa cocida, pimientos asados, calabacin, berenjena, tomate y cebolla, alinada con vinagreta balsamica.",
+      "ingredientes": [
+        "Quinoa",
+        "Pimientos",
+        "Calabacin",
+        "Berenjena",
+        "Tomate",
+        "Cebolla",
+        "Vinagreta balsamica"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de lentejas con verduras",
+      "descripcion": "Sopa casera de lentejas con zanahorias, apio, cebolla y tomate, sazonada con hierbas frescas.",
+      "ingredientes": [
+        "Lentejas",
+        "Zanahorias",
+        "Apio",
+        "Cebolla",
+        "Tomate",
+        "Hierbas frescas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Alta"
+      }
+    },
+    {
+      "nombre": "Bowl de burrito vegetariano",
+      "descripcion": "Bowl saludable con arroz integral, frijoles negros, aguacate, maiz, tomate, cebolla morada, cilantro y salsa de yogur.",
+      "ingredientes": [
+        "Arroz integral",
+        "Frijoles negros",
+        "Aguacate",
+        "Maiz",
+        "Tomate",
+        "Cebolla morada",
+        "Cilantro",
+        "Salsa de yogur"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pollo al curry con arroz basmati",
+      "descripcion": "Pollo tierno cocido en una salsa de curry cremosa, servido con arroz basmati y espinacas salteadas.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Curry en polvo",
+        "Crema de coco",
+        "Arroz basmati",
+        "Espinacas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tacos de pescado al horno",
+      "descripcion": "Tacos de pescado blanco al horno, rellenos de repollo rallado, cilantro, cebolla morada y salsa de yogur.",
+      "ingredientes": [
+        "Filete de pescado blanco",
+        "Tortillas de maiz",
+        "Repollo",
+        "Cilantro",
+        "Cebolla morada",
+        "Salsa de yogur"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pizza vegetariana con masa integral",
+      "descripcion": "Pizza casera con masa integral, salsa de tomate, mozzarella baja en grasa, champinones, pimientos, cebolla y aceitunas.",
+      "ingredientes": [
+        "Masa integral",
+        "Salsa de tomate",
+        "Mozzarella baja en grasa",
+        "Champinones",
+        "Pimientos",
+        "Cebolla",
+        "Aceitunas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pastel de carne magra con pure de batata",
+      "descripcion": "Pastel de carne magra con pure de batata casero, acompanado de guisantes frescos y zanahorias.",
+      "ingredientes": [
+        "Carne molida magra",
+        "Pure de batata",
+        "Guisantes",
+        "Zanahorias"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada Cesar con pollo a la parrilla",
+      "descripcion": "Ensalada clasica Cesar con lechuga romana fresca, pollo a la parrilla, crutones de pan integral y aderezo Cesar casero.",
+      "ingredientes": [
+        "Lechuga romana",
+        "Pechuga de pollo",
+        "Crutones de pan integral",
+        "Queso parmesano",
+        "Aderezo Cesar"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon al horno con costra de nueces",
+      "descripcion": "Filete de salmon fresco horneado con una costra crujiente de nueces, servido con esparragos al vapor.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Nueces",
+        "Esparragos"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Wrap de pavo y aguacate",
+      "descripcion": "Wrap de tortilla integral relleno de pechuga de pavo, aguacate, lechuga, tomate y mostaza Dijon.",
+      "ingredientes": [
+        "Tortilla integral",
+        "Pechuga de pavo",
+        "Aguacate",
+        "Lechuga",
+        "Tomate",
+        "Mostaza Dijon"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa y vegetales asados",
+      "descripcion": "Ensalada nutritiva de quinoa cocida, pimientos asados, calabacin, berenjena, tomate y cebolla, alinada con vinagreta balsamica.",
+      "ingredientes": [
+        "Quinoa",
+        "Pimientos",
+        "Calabacin",
+        "Berenjena",
+        "Tomate",
+        "Cebolla",
+        "Vinagreta balsamica"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de lentejas con verduras",
+      "descripcion": "Sopa casera de lentejas con zanahorias, apio, cebolla y tomate, sazonada con hierbas frescas.",
+      "ingredientes": [
+        "Lentejas",
+        "Zanahorias",
+        "Apio",
+        "Cebolla",
+        "Tomate",
+        "Hierbas frescas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Alta"
+      }
+    },
+    {
+      "nombre": "Bowl de burrito vegetariano",
+      "descripcion": "Bowl saludable con arroz integral, frijoles negros, aguacate, maiz, tomate, cebolla morada, cilantro y salsa de yogur.",
+      "ingredientes": [
+        "Arroz integral",
+        "Frijoles negros",
+        "Aguacate",
+        "Maiz",
+        "Tomate",
+        "Cebolla morada",
+        "Cilantro",
+        "Salsa de yogur"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pollo al curry con arroz basmati",
+      "descripcion": "Pollo tierno cocido en una salsa de curry cremosa, servido con arroz basmati y espinacas salteadas.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Curry en polvo",
+        "Crema de coco",
+        "Arroz basmati",
+        "Espinacas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tacos de pescado al horno con repollo",
+      "descripcion": "Tacos de pescado blanco al horno, rellenos de repollo rallado, cilantro, cebolla morada y salsa de yogur.",
+      "ingredientes": [
+        "Filete de pescado blanco",
+        "Tortillas de maiz",
+        "Repollo",
+        "Cilantro",
+        "Cebolla morada",
+        "Salsa de yogur"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pizza vegetariana con masa integral",
+      "descripcion": "Pizza casera con masa integral, salsa de tomate, mozzarella baja en grasa, champinones, pimientos, cebolla y aceitunas.",
+      "ingredientes": [
+        "Masa integral",
+        "Salsa de tomate",
+        "Mozzarella baja en grasa",
+        "Champinones",
+        "Pimientos",
+        "Cebolla",
+        "Aceitunas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pastel de carne magra con pure de batata",
+      "descripcion": "Pastel de carne magra con pure de batata casero, acompanado de guisantes frescos y zanahorias.",
+      "ingredientes": [
+        "Carne molida magra",
+        "Pure de batata",
+        "Guisantes",
+        "Zanahorias"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon al horno con costra de nueces",
+      "descripcion": "Filete de salmon fresco horneado con una costra crujiente de nueces, servido con esparragos al vapor.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Nueces",
+        "Esparragos"
+      ],
+      "alergias": [
+        "Nueces"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Wrap de pavo y aguacate",
+      "descripcion": "Wrap de tortilla integral relleno de pechuga de pavo, aguacate, lechuga, tomate y mostaza Dijon.",
+      "ingredientes": [
+        "Tortilla integral",
+        "Pechuga de pavo",
+        "Aguacate",
+        "Lechuga",
+        "Tomate",
+        "Mostaza Dijon"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa y vegetales asados",
+      "descripcion": "Ensalada nutritiva de quinoa cocida, pimientos asados, calabacin, berenjena, tomate y cebolla, alinada con vinagreta balsamica.",
+      "ingredientes": [
+        "Quinoa",
+        "Pimientos",
+        "Calabacin",
+        "Berenjena",
+        "Tomate",
+        "Cebolla",
+        "Vinagreta balsamica"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de lentejas con verduras",
+      "descripcion": "Sopa casera de lentejas con zanahorias, apio, cebolla y tomate, sazonada con hierbas frescas.",
+      "ingredientes": [
+        "Lentejas",
+        "Zanahorias",
+        "Apio",
+        "Cebolla",
+        "Tomate",
+        "Hierbas frescas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Alta"
+      }
+    },
+    {
+      "nombre": "Bowl de burrito vegetariano",
+      "descripcion": "Bowl saludable con arroz integral, frijoles negros, aguacate, maiz, tomate, cebolla morada, cilantro y salsa de yogur.",
+      "ingredientes": [
+        "Arroz integral",
+        "Frijoles negros",
+        "Aguacate",
+        "Maiz",
+        "Tomate",
+        "Cebolla morada",
+        "Cilantro",
+        "Salsa de yogur"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pollo al curry con arroz basmati",
+      "descripcion": "Pollo tierno cocido en una salsa de curry cremosa, servido con arroz basmati y espinacas salteadas.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Curry en polvo",
+        "Crema de coco",
+        "Arroz basmati",
+        "Espinacas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tacos de pescado al horno con repollo",
+      "descripcion": "Tacos de pescado blanco al horno, rellenos de repollo rallado, cilantro, cebolla morada y salsa de yogur.",
+      "ingredientes": [
+        "Filete de pescado blanco",
+        "Tortillas de maiz",
+        "Repollo",
+        "Cilantro",
+        "Cebolla morada",
+        "Salsa de yogur"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pizza vegetariana con masa integral",
+      "descripcion": "Pizza casera con masa integral, salsa de tomate, mozzarella baja en grasa, champinones, pimientos, cebolla y aceitunas.",
+      "ingredientes": [
+        "Masa integral",
+        "Salsa de tomate",
+        "Mozzarella baja en grasa",
+        "Champinones",
+        "Pimientos",
+        "Cebolla",
+        "Aceitunas"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pastel de carne magra con pure de batata",
+      "descripcion": "Pastel de carne magra con pure de batata casero, acompanado de guisantes frescos y zanahorias.",
+      "ingredientes": [
+        "Carne molida magra",
+        "Pure de batata",
+        "Guisantes",
+        "Zanahorias"
+      ],
+      "alergias": [
+        "Ninguna"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 30.1,
+        "max": 40
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de pollo con aguacate y arroz integral",
+      "descripcion": "Ensalada fresca con pechuga de pollo a la parrilla, aguacate, arroz integral y una variedad de vegetales.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Aguacate",
+        "Arroz integral",
+        "Vegetales variados"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sandwich de pavo con aguacate y pan integral",
+      "descripcion": "Un sandwich con pavo, aguacate, lechuga y tomate, servido con una rebanada de pan integral.",
+      "ingredientes": [
+        "Pavo",
+        "Aguacate",
+        "Lechuga",
+        "Tomate",
+        "Pan integral"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Revuelto de huevo con verduras y patatas",
+      "descripcion": "Huevos revueltos con espinacas, champinones y patatas cocidas al vapor.",
+      "ingredientes": [
+        "Huevos",
+        "Espinacas",
+        "Champinones",
+        "Patatas"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de atun con pasta integral",
+      "descripcion": "Una sopa reconfortante con atun, pasta integral, zanahorias y apio en un caldo de verduras casero.",
+      "ingredientes": [
+        "Atun",
+        "Pasta integral",
+        "Zanahorias",
+        "Apio",
+        "Caldo de verduras"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Salmon a la parrilla con ensalada de quinoa",
+      "descripcion": "Filete de salmon a la parrilla acompanado de una fresca ensalada de quinoa con pepino, tomate y aguacate.",
+      "ingredientes": [
+        "Salmon",
+        "Quinoa",
+        "Pepino",
+        "Tomate",
+        "Aguacate"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de espinacas con fresas y pollo a la parrilla",
+      "descripcion": "Una ensalada refrescante con espinacas frescas, fresas, nueces y pechuga de pollo a la parrilla.",
+      "ingredientes": [
+        "Espinacas",
+        "Fresas",
+        "Nueces",
+        "Pechuga de pollo"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Tacos de pavo con tortillas de maiz integral",
+      "descripcion": "Tacos deliciosos rellenos de pavo sazonado, cebolla, cilantro y servidos en tortillas de maiz integral.",
+      "ingredientes": [
+        "Pavo",
+        "Cebolla",
+        "Cilantro",
+        "Tortillas de maiz integral"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Wok de vegetales con camarones y arroz integral",
+      "descripcion": "Vegetales frescos salteados con camarones jugosos y servidos sobre una cama de arroz integral.",
+      "ingredientes": [
+        "Vegetales mixtos",
+        "Camarones",
+        "Arroz integral"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tortilla de claras de huevo con espinacas y aguacate",
+      "descripcion": "Una tortilla de claras de huevo ligera y esponjosa rellena de espinacas y aguacate.",
+      "ingredientes": [
+        "Claras de huevo",
+        "Espinacas",
+        "Aguacate"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": "",
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Bowl de salmon con quinoa y aguacate",
+      "descripcion": "Un bol nutritivo con salmon a la parrilla, quinoa, aguacate, pepino y zanahorias ralladas.",
+      "ingredientes": [
+        "Salmon",
+        "Quinoa",
+        "Aguacate",
+        "Pepino",
+        "Zanahorias"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pechuga de pollo al horno con batatas asadas",
+      "descripcion": "Pechuga de pollo jugosa al horno con batatas asadas y una mezcla de especias.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Batatas",
+        "Especias"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada griega con queso feta y aceitunas",
+      "descripcion": "Una ensalada fresca con pepino, tomate, cebolla roja, queso feta y aceitunas negras, alinada con aceite de oliva y limon.",
+      "ingredientes": [
+        "Pepino",
+        "Tomate",
+        "Cebolla roja",
+        "Queso feta",
+        "Aceitunas negras",
+        "Aceite de oliva",
+        "Limon"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Wrap de pavo y aguacate en tortilla de espinaca",
+      "descripcion": "Un wrap delicioso con pavo, aguacate, lechuga y tomate, envuelto en una tortilla de espinaca.",
+      "ingredientes": [
+        "Pavo",
+        "Aguacate",
+        "Lechuga",
+        "Tomate",
+        "Tortilla de espinaca"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Hamburguesa de pavo con guarnicion de batatas fritas al horno",
+      "descripcion": "Una hamburguesa jugosa de pavo servida con batatas fritas al horno, una opcion mas saludable que la version tradicional.",
+      "ingredientes": [
+        "Pavo molido",
+        "Pan integral para hamburguesa",
+        "Lechuga",
+        "Tomate",
+        "Cebolla",
+        "Batatas"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada de quinoa con tofu y verduras asadas",
+      "descripcion": "Ensalada nutritiva con quinoa, tofu marinado, pimientos, calabacines y berenjenas asadas.",
+      "ingredientes": [
+        "Quinoa",
+        "Tofu",
+        "Pimientos",
+        "Calabacines",
+        "Berenjenas"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Tortilla espanola con patatas y cebolla",
+      "descripcion": "Clasica tortilla espanola con patatas y cebolla, perfecta para una comida reconfortante y nutritiva.",
+      "ingredientes": [
+        "Huevos",
+        "Patatas",
+        "Cebolla",
+        "Aceite de oliva"
+      ],
+      "alergias": [
+        "Huevos"
+      ],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Bowl de arroz integral con vegetales salteados y huevo pochado",
+      "descripcion": "Bowl saludable con arroz integral, vegetales mixtos salteados y huevo pochado, todo aderezado con salsa de soja.",
+      "ingredientes": [
+        "Arroz integral",
+        "Vegetales mixtos",
+        "Huevo",
+        "Salsa de soja"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Wrap vegetariano con hummus, aguacate y vegetales frescos",
+      "descripcion": "Wrap vegetariano relleno de hummus casero, aguacate, zanahorias ralladas, espinacas y tomates cherry.",
+      "ingredientes": [
+        "Tortilla de trigo integral",
+        "Hummus",
+        "Aguacate",
+        "Zanahorias",
+        "Espinacas",
+        "Tomates cherry"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Filete de ternera a la parrilla con esparragos y batatas asadas",
+      "descripcion": "Filete de ternera magra a la parrilla acompanado de esparragos frescos y batatas asadas con romero.",
+      "ingredientes": [
+        "Filete de ternera",
+        "Esparragos",
+        "Batatas",
+        "Romero"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sopa de lentejas con verduras y tomate",
+      "descripcion": "Sopa reconfortante de lentejas con verduras mixtas y tomate, sazonada con hierbas aromaticas.",
+      "ingredientes": [
+        "Lentejas",
+        "Zanahorias",
+        "Apio",
+        "Cebolla",
+        "Tomate",
+        "Hierbas aromaticas"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Sushi vegetariano de aguacate y pepino",
+      "descripcion": "Rollos de sushi vegetarianos rellenos de aguacate cremoso y pepino fresco, servidos con salsa de soja y jengibre.",
+      "ingredientes": [
+        "Arroz para sushi",
+        "Algas nori",
+        "Aguacate",
+        "Pepino",
+        "Salsa de soja",
+        "Jengibre"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Baja",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Estofado de garbanzos con espinacas y tomate",
+      "descripcion": "Estofado reconfortante de garbanzos con espinacas frescas, tomate maduro y especias aromaticas.",
+      "ingredientes": [
+        "Garbanzos",
+        "Espinacas",
+        "Tomate",
+        "Cebolla",
+        "Ajo",
+        "Especias"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Baja",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Pollo al curry con arroz basmati",
+      "descripcion": "Pollo tierno cocinado en una deliciosa salsa de curry con arroz basmati aromatico.",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Curry en polvo",
+        "Leche de coco",
+        "Arroz basmati",
+        "Cilantro"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Moderada",
+        "carbohidratos": "Moderada"
+      }
+    },
+    {
+      "nombre": "Ensalada griega con queso feta y aceitunas",
+      "descripcion": "Ensalada refrescante con lechuga crujiente, pepino, tomate, cebolla roja, queso feta y aceitunas kalamata.",
+      "ingredientes": [
+        "Lechuga",
+        "Pepino",
+        "Tomate",
+        "Cebolla roja",
+        "Queso feta",
+        "Aceitunas kalamata"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Moderada",
+        "grasas": "Moderada",
+        "carbohidratos": "Baja"
+      }
+    },
+    {
+      "nombre": "Salmon al horno con esparragos y pure de coliflor",
+      "descripcion": "Filete de salmon fresco horneado con esparragos a la parrilla y pure cremoso de coliflor.",
+      "ingredientes": [
+        "Filete de salmon",
+        "Esparragos",
+        "Coliflor",
+        "Aceite de oliva",
+        "Sal",
+        "Pimienta"
+      ],
+      "alergias": [],
+      "enfermedades": [
+        "Ninguna"
+      ],
+      "actividad_fisica_recomendada": [
+        "Sedentaria",
+        "Ligera",
+        "Moderada",
+        "Alta",
+        "Atleta profesional"
+      ],
+      "imc_recomendado": {
+        "min": 18.5,
+        "max": 30
+      },
+      "nutrientes": {
+        "proteinas": "Alta",
+        "grasas": "Alta",
+        "carbohidratos": "Baja"
+      }
+    }
+  ]
+}

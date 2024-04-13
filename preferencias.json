@@ -1,0 +1,5 @@
+{
+    "proteinas": ["pollo", "pavo", "huevo", "atun"],
+    "grasas": ["aceite de oliva", "aguacate", "frutos secos", "salmon"],
+    "carbohidratos": ["arroz", "pasta", "patata", "pan integral"]
+}
