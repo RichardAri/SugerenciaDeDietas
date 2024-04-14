@@ -1,0 +1,19 @@
+{
+    "nombre": "richard",
+    "edad": 18,
+    "peso": 65.0,
+    "altura": 1.75,
+    "imc": 21.224489795918366,
+    "alergias": [
+        "Ninguna"
+    ],
+    "actividad_fisica": "Sedentaria",
+    "enfermedades": [
+        "Ninguna"
+    ],
+    "preferencias": [
+        "atun",
+        "salmon",
+        "pan integral"
+    ]
+}
