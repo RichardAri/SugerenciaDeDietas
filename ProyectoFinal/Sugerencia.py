@@ -79,8 +79,19 @@ class SistemaRecomendacion:
         return ingesta_calorica
 
     def preguntar_alergias(self):
-        alergias = input("¿Tiene alguna alergia alimentaria? (separe las alergias por coma): ")
-        return alergias.split(',')
+        alergias_disponibles = ["Mani", "Soja", "Trigo", "Lacteos", "Shellfish"]
+        print("\nSeleccione sus alergias:")
+        for i, alergia in enumerate(alergias_disponibles):
+            print(f"{i+1}. {alergia}")
+
+        while True:
+            opcion_seleccion = input("Ingrese el número de las alergias que tiene (separadas por comas): ")
+            try:
+                alergias_seleccionadas = [alergias_disponibles[int(opcion) - 1] for opcion in opcion_seleccion.split(',')]
+                break
+            except (ValueError, IndexError):
+                print("Las opciones ingresadas no son válidas. Intente nuevamente.")
+        return alergias_seleccionadas
 
     def calcular_imc_usuario(self, peso, altura):
         return peso / (altura ** 2)
@@ -112,7 +123,7 @@ class SistemaRecomendacion:
         for recipe in recipes:
             receta = Receta(recipe['id'], recipe['name'], recipe['dietLabels'], recipe['healthLabels'], recipe['allergies'], recipe['calories'], recipe['totalWeight'], recipe['totalTime'], recipe['cuisineType'], recipe['mealType'])
 
-            cursor.execute("SELECT name FROM Ingredient WHERE recipe_id = %s", (receta.id,))
+            cursor.execute("SELECT * FROM Ingredient WHERE recipe_id = %s", (receta.id,))
             ingredientes = [Ingrediente(ingredient['id'], ingredient['recipe_id'], ingredient['name'], ingredient['quantity'], ingredient['measure'], ingredient['type'], ingredient['weight']) for ingredient in cursor.fetchall()]
 
             cursor.execute("SELECT name, quantity, unit FROM Nutrient WHERE recipe_id = %s", (receta.id,))
@@ -166,7 +177,7 @@ class SistemaRecomendacion:
         return etiquetas_seleccionadas
 
     def seleccionar_alergias(self):
-        alergias_disponibles = ["Maní", "Soja", "Trigo", "Lácteos", "Mariscos"]
+        alergias_disponibles = ["Mani", "Soja", "Trigo", "Lacteos", "Shellfish"]
         print("\nSeleccione sus alergias:")
         for i, alergia in enumerate(alergias_disponibles):
             print(f"{i+1}. {alergia}")
@@ -182,22 +193,35 @@ class SistemaRecomendacion:
         return alergias_seleccionadas
 
     def seleccionar_ingredientes_no_gustan(self):
-        ingredientes_no_gustan_ingresados = input("Ingrese ingredientes no deseados separados por comas ( ingrese 0 para continuar): ")
-        if ingredientes_no_gustan_ingresados:
-            return ingredientes_no_gustan_ingresados.split(',')
-        elif ingredientes_no_gustan_ingresados == "0":
+        ingredientes_no_gustan_ingresados = input("Ingrese ingredientes no deseados separados por comas sin espacios (ingrese 0 para continuar): ")
+        if ingredientes_no_gustan_ingresados == "0":
             return None
+        elif ingredientes_no_gustan_ingresados:
+            return ingredientes_no_gustan_ingresados.split(',')
         else:
             return None
 
-    
+    def formatear_recomendaciones(self,recomendaciones):
+        for receta in recomendaciones:
+            print("Nombre:", receta['nombre'])
+            print("Tipo de cocina:", receta['tipo_cocina'])
+            print("Tipo de comida:", receta['tipo_comida'])
+            print("Calorías:", receta['calorias'])
+            print("Peso total:", receta['peso_total'])
+            print("Tiempo total:", receta['tiempo_total'])
+            print("Ingredientes:")
+            for ingrediente in receta['ingredientes']:
+                print("\t", ingrediente)
+            print("Nutrientes:")
+            for nutrient, value in receta['nutrientes'].items():
+                print("\t", nutrient, ":", value)
+            print("\n")
+
     def main(self):
-        
-        # Obtener información del usuario
         nombre = input("Ingrese su nombre: ")
         edad = int(input("Ingrese su edad: "))
         peso = float(input("Ingrese su peso en kilogramos: "))
-        altura = float(input("Ingrese su altura en metros: "))
+        altura = float(input("Ingrese su altura en metros(1.45): "))
         genero = input("Ingrese su sexo (masculino/femenino): ")
         objetivo = input("¿Cuál es tu objetivo? (mantener/perder/ganar): ")
 
@@ -207,14 +231,14 @@ class SistemaRecomendacion:
         ingesta_calorica = self.calcular_ingesta_calorica(tmb, nivel_actividad, objetivo)
         imc = self.calcular_imc_usuario(peso, altura)
         alergias = self.preguntar_alergias()
-        ingredientes_no_gustan = self.preguntar_ingredientes_no_gustan()
+        ingredientes_no_gustan = self.seleccionar_ingredientes_no_gustan()
 
         # Mostrar recomendaciones iniciales
         recomendaciones_iniciales = self.obtener_recomendaciones()
         print("\nRecomendaciones iniciales:")
-        for recomendacion in recomendaciones_iniciales:
-            print(recomendacion)
-
+        #for recomendacion in recomendaciones_iniciales:
+        self.formatear_recomendaciones(recomendaciones_iniciales)
+        
         filtros = {}
         while True:
             print("\n¿Desea refinar las recomendaciones? (sí/no)")
@@ -265,16 +289,9 @@ class SistemaRecomendacion:
                 break
             else:
                 print("Opción no válida.")
-
-        # Obtener recomendaciones finales con filtros
+                
         recomendaciones_finales = self.obtener_recomendaciones(diet_labels=filtros.get('diet_labels'), health_labels=filtros.get('health_labels'), allergies=alergias)
-
-        # Mostrar recomendaciones finales
-        print("\nRecomendaciones finales:")
-        for recomendacion in recomendaciones_finales:
-            print(recomendacion)
-        
-        
+        self.formatear_recomendaciones(recomendaciones_finales)
 
 if __name__ == "__main__":
     conn = mysql.connector.connect(
