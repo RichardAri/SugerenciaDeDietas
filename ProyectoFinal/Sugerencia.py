@@ -193,7 +193,7 @@ class SistemaRecomendacion:
         return alergias_seleccionadas
 
     def seleccionar_ingredientes_no_gustan(self):
-        ingredientes_no_gustan_ingresados = input("Ingrese ingredientes no deseados separados por comas sin espacios (ingrese 0 para continuar): ")
+        ingredientes_no_gustan_ingresados = input("Ingrese ingredientes no deseados separados por comas sin espacios (presione Enter para continuar): ")
         if ingredientes_no_gustan_ingresados == "0":
             return None
         elif ingredientes_no_gustan_ingresados:
